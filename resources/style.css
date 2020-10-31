@@ -1,6 +1,8 @@
 html {
     background-color: black;
     text-align: center;
+    font-family: Verdana;
+    display: block;
 }
 
 .heading {
@@ -14,4 +16,29 @@ html {
 .link {
     color: aquamarine;
     font-size: 16px;
+}
+
+.heading2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+.info {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.copyright {
+    text-align: right;
+    color: gray;
 }
